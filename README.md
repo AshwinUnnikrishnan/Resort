@@ -5,6 +5,7 @@ colorFrom: indigo
 colorTo: yellow
 sdk: streamlit
 pinned: false
+app_file: streamlit_main.py
 app_port: 8501
 license: apache-2.0
 ---
