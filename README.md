@@ -77,5 +77,10 @@ Live Monitoring offers the following key functionalities:
 
 This project was developed by Ashwin Unnikrishnan.
 ---
+## Future Scope
+- Docker Deployment is already present but slow, explore on that front.
+- Have feature where it show since when the chairs are free 1 min updates.
+- Check for other things overlapping the chair as well, instead of human and chair.
+- This is a generic video so the angle might not cover all the chairs correctly.
 
 Feel free to customize this README further or provide additional information specific to your project's requirements. Let me know if you need further assistance or have any specific preferences!
