@@ -1,0 +1,1 @@
+MODEL_PATH = "model/yolov8n-seg.pt"

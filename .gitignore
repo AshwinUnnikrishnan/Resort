@@ -1,0 +1,7 @@
+.idea
+/data
+.DS_Store
+env
+/config/__pycache__/
+/libs/__pycache__/
+/model
