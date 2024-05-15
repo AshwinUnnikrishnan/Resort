@@ -3,7 +3,7 @@ title: Resort
 emoji: 📉
 colorFrom: indigo
 colorTo: yellow
-sdk: docker
+sdk: streamlit
 pinned: false
 app_port: 8501
 license: apache-2.0
