@@ -15,7 +15,8 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
 
 # Live Resort Pool Chair Monitoring
 
-Live Monitoring is an application designed for real-time monitoring of video feeds, particularly focusing on detecting people and their interactions with chairs. This README provides an overview of the project, including setup instructions, usage guidelines, functionality details, contributors, and licensing information.
+Live Monitoring is an application designed for real-time monitoring of video feeds, particularly focusing on detecting people and their interactions with chairs.
+This README provides an overview of the project, including setup instructions, usage guidelines, functionality details, contributors, and licensing information.
 
 ## Table of Contents
 
@@ -32,6 +33,9 @@ Live Monitoring is an application designed for real-time monitoring of video fee
 ## Introduction
 
 Live Monitoring employs object detection techniques to analyze video streams, identifying individuals (people) and objects (chairs) within each frame. By detecting interactions between people and chairs, the application facilitates occupancy management, enabling real-time monitoring and analysis of seating arrangements.
+- Generate the json file from roboflow wrt one frame from the camera, to get the outline of chairs.
+- Use Yolov8 to detect people in frame.
+- Check for overlap of people and chairs and mark as unavailable if overlap for multiple seconds.
 
 ## Setup
 
@@ -79,7 +83,7 @@ This project was developed by Ashwin Unnikrishnan.
 ---
 ## Future Scope
 - Docker Deployment is already present but slow, explore on that front.
-- Have feature where it show since when the chairs are free 1 min updates.
+- Have a feature where it shows, since when the chairs are free 1 min updates.
 - Check for other things overlapping the chair as well, instead of human and chair.
 - This is a generic video so the angle might not cover all the chairs correctly.
 
